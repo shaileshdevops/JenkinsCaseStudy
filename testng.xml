@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CustomerAppSuite">
+  <test thread-count="5" name="CustomerAppTest">
+    <classes>
+      <class name="com.renju.training.jenkins.caseStudy.CaseStudyApplicationTests"/>
+      <class name="com.renju.training.jenkins.caseStudy.service.TodoServiceTest"/>
+      <class name="com.renju.training.jenkins.caseStudy.selenium.LoginPageTest"/>
+    </classes>
+  </test> <!-- CustomerAppTest -->
+</suite> <!-- CustomerAppSuite -->
